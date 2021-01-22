@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.filter a {
+  padding: 20px 20px;
+  display: inline-block;
+  color: #003;
+  background: #eee;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 9px;
+font-weight: 900;
+}
+
+.filter a:hover {
+  background: #8ad;
+  
+}
+
+.filter {
+  padding: 20px;
+  text-align: center;
+}
+
+.sets a img {
+  width: 100%;
+  height: auto;
+  float: left;
+  border-radius: 5%
+}
+
+.sets a {
+  width: 25%;
+  transition: all 0.2s;
+  display: block;
+  float: left;
+  opacity: 1;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding:5px;
+}
+
+.sets .hide, .sets .pophide {
+  width: 0%;
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.sets .pop {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0.5);
+  
+}
+
+.pop:after {
+  content: "×";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #333;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.pop:hover:after {
+  opacity: 1;
+}
+
+.follow {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  background: rgba(0, 0, 0, 0.92);
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  opacity: 0.5;
+  padding: 5px 0;
+}

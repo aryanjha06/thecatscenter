@@ -1,0 +1,99 @@
+body {
+font-family:"Nunito",sans-serif;
+ background-image: url("img/backgound-pic/4853433.jpg"); 
+ margin: auto;
+}
+
+#mainNavbar a{
+    text-decoration: none;
+}
+#mainNavbar .navbar-brand {
+color: #001427;
+font-size: 2.5rem;
+font-weight: bolder;
+font-family: 'Cinzel', serif;
+font-weight: 900;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 20px;
+}
+#mainNavbar .nav-link{
+    color: #db222a;
+    position: relative;
+    top: 2px;
+    right: 20px;
+    left: 600px;
+    font-weight: 1000;
+    font-family: 'Raleway', sans-serif;
+}
+#mainNavbar .nav-link:hover{
+    color:#001427;
+    
+}
+.carousel-inner { 
+    max-width: 100%;
+  height: auto;
+padding:10px;
+border-radius: 10%;}
+
+.container-fluid{
+    color: black;
+    box-align:center;
+
+}
+.display-4{
+    text-align: center;
+    color: #0077b6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+padding-top: 10px;
+margin-bottom: 20px;}
+
+.lead{ 
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    columns: #000000;;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+}
+.navbar-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sets{
+    padding: 30px;
+}
+.display-5{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+.text-muted{
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.texty{
+padding-bottom:50px;
+margin-left: 20px;
+columns: #000000;
+font-family: 'Exo 2', sans-serif;
+font-weight: 900;
+font-size:larger;
+}
+.display-5{
+    padding:20px
+}
+#footer{
+    color:black;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
